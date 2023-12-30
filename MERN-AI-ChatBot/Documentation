@@ -1,0 +1,85 @@
+->Backend---
+//------------------------------------------------------------------------------
+Steps - {}
+
+{
+    Setting up Node, Express App with TypeScript
+        -routing with Express
+        -import Express
+        -create an instance of the express app named 'App'. This holds the functionality of the express app.
+}
+
+=> Four types of Requests are used in Backend Development
+    - GET = Getting some data from database
+    - POST = Send some data
+    - PUT = Update some data
+    - DELETE = Delete some data 
+Middlewares are functions to handle requests
+- sending the id in the url of the api is the dynamic route to fetch the data
+
+{
+    Integrating the MongoDB connection
+}
+{
+    Get the Api Key from OpenAi and organization key as well
+}
+{
+    Building a secure authentication with Tokens and HTTP only signed cookies
+    install morgan package, it gives a log on what request was made and what was the response
+    Creating an Api connection to get and post. And before adding to the database, validation checks must be done.
+}
+{
+    Making validation checks by using express-validator package
+}
+
+{
+    Implementing JWT tokens.
+    - Using HTTP only cookies the tokens are sent.
+    - JWT provides the tokens to the user.
+    Protected resources are accessed when the cookie that is sent back by the user is verified.
+        - At time of verification, same secret key must be used which is used during encryption.
+    the jwt secret key can be any string but it is not meant to be shared to anyone.
+    Sending the cookies. The secret key can be any String and it must not be shared.
+    Once the cookie is expired, the user needs to re-login
+}
+
+->Frontend---
+//------------------------------------------------------------------------------
+Steps - {}
+
+{
+    install necessary packages
+        - react-router-dom, react-icons, react-hot-toast
+}
+
+{
+    Create a Frontend webpage.
+        - Use state for managing the logins and signups of the users
+            - Either Redux can be used or "ContextAPI " can be used which is a better option
+}
+{
+    make an Api request from frontend to backend with the help of axios
+        - we can set default ip address as baseURL and defaults withCredentials for exchanging api request
+}
+
+{
+    Design Web pages for signup, chats, login, home
+    Add Protected routes 
+}
+{
+    ---End of the Project---
+    Learned HOW TO-
+        - Create User Authentication and Authorization System
+        - Implementing Express-Validators Middleware To Validate Data
+        - Storing User Chats In MongoDB.
+        - Generating Custom and Our Own Authentication System
+        - Using JWT Authorization Tokens, HTTP Only Cookies
+        - Protecting User Routes With Verification Checks
+        - Modern React App With Vite
+        - Creating Beautiful Chat UI With Material UI Library
+        - Complete Responsive Design
+        - Modern Design
+        - Integrating OpenAI With Node, Express MERN Stack APP
+        - A Full Stack ChatGPT Like Clone
+        - Storing User Sessions
+}
