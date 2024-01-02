@@ -1,0 +1,22 @@
+*** All important points and references
+
+use the password while pasting the mongo url and give the name of your database
+
+use export to the variables so it can be imported in app file
+
+after making code changes and saving it. ** Kill the program that is already running on the same port 
+    by # lsof -i :{port number}
+- this gives details about the ProcessID
+- then kill the process using: #kill -9 {ProcessID}**
+
+go to mongoosejs.com for references
+
+CORS policy on Node.js
+    - web security mechanism that prevents unauthorized access to a resource or server
+
+we want to have Single Page Application (SPA), so the application would not be refreshed on page changing
+    - we need to install react router dom package for this
+
+install vite for creating a localhost server to run the front-end web application, it bundles JS, CSS and assets together for production
+
+install axios react-icons package { axios for HTTP request and icons for react-icons}
